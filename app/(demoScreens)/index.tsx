@@ -1,3 +1,6 @@
-import FirstScreen from "@/screens/FirstScreen";
+// import FirstScreen from "@/screens/FirstScreen";
 
-export default FirstScreen;
+import SecondScreen from "@/screens/SecondScreen";
+
+// export default FirstScreen;
+export default SecondScreen;
