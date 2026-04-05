@@ -17,9 +17,9 @@ const FourthScreen = () => {
   const animatedValue = useSharedValue(1);
   const animatedStyle = useAnimatedStyle(() => {
     return {
-      //   transform: [{ translateX: animatedValue.value }],
+      transform: [{ translateX: animatedValue.value }],
       //   transform: [{ rotate: `${animatedValue.value}rad` }],
-      transform: [{ scale: animatedValue.value }],
+      // transform: [{ scale: animatedValue.value }],
     };
   });
   const rotateGesture = Gesture.Rotation()
@@ -61,7 +61,7 @@ const FourthScreen = () => {
     });
   return (
     <GestureHandlerRootView style={styles.container}>
-      <GestureDetector gesture={pinchGesture}>
+      <GestureDetector gesture={multiGesture}>
         <Animated.View style={[styles.box, animatedStyle]} />
       </GestureDetector>
     </GestureHandlerRootView>
