@@ -1,4 +1,3 @@
-import FifthScreen from "@/screens/FifthScreen";
-import FourthScreen from "@/screens/FourthScreen";
+import LayoutAnimation from "@/screens/LayoutAnimation";
 
-export default FifthScreen;
+export default LayoutAnimation;
